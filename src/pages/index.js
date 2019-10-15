@@ -30,7 +30,7 @@ export default ({data}) => (
     < NavBar />
     <div className="container">
 
-      <h1>Nouveautés</h1>
+      <h1>Nouveautés de Maison Cédric</h1>
 
       <div className="row-3">
         <Card
