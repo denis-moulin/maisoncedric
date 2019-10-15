@@ -12,6 +12,8 @@ import NewsletterAd from '../components/newsletterAd.js';
 
 
 class Assises extends React.Component {
+
+
   render(){
     return (
       <React.Fragment>
@@ -22,13 +24,34 @@ class Assises extends React.Component {
             <h1>Assises</h1>
             <hr/>
             <ul>
-              <li>Toutes les assises</li>
-              <li>Fauteuils</li>
-              <li>Chaises</li>
-              <li>Canapés</li>
-              <li>Tabourets</li>
-              <li>Tables</li>
-              <li>Autres</li>
+              <li onClick={this.toggleCheck}>
+                <input type="checkbox"  />
+                <span>Toutes les assises</span>
+              </li>
+              <li onClick={this.toggleCheck}>
+                <input type="checkbox"  />
+                <span>Fauteuils</span>
+              </li>
+              <li onClick={this.toggleCheck}>
+                <input type="checkbox"  />
+                <span>Chaises</span>
+              </li>
+              <li onClick={this.toggleCheck}>
+              <input type="checkbox"  />
+                <span>Canapés</span>
+              </li>
+              <li onClick={this.toggleCheck}>
+              <input type="checkbox"  />
+                <span>Tabourets</span>
+              </li>
+              <li onClick={this.toggleCheck}>
+              <input type="checkbox"  />
+                <span>Tables</span>
+              </li>
+              <li onClick={this.toggleCheck}>
+              <input type="checkbox"  />
+                <span>Autres</span>
+              </li>
             </ul>
           </div>
           <div className="row-3">
