@@ -24,35 +24,35 @@ class Assises extends React.Component {
             <h1>Assises</h1>
             <hr/>
             <ul>
-              <li onClick={this.toggleCheck}>
+           <li onClick={this.toggleCheck}>
                 <input type="checkbox"  />
                 <span>Toutes les assises</span>
-              </li>
-              <li onClick={this.toggleCheck}>
+                </li>
+           <li onClick={this.toggleCheck}>
                 <input type="checkbox"  />
                 <span>Fauteuils</span>
-              </li>
-              <li onClick={this.toggleCheck}>
+                </li>
+            <li onClick={this.toggleCheck}>
                 <input type="checkbox"  />
                 <span>Chaises</span>
-              </li>
-              <li onClick={this.toggleCheck}>
+                </li>
+          <li onClick={this.toggleCheck}>
               <input type="checkbox"  />
                 <span>Canapés</span>
-              </li>
-              <li onClick={this.toggleCheck}>
+                </li>
+            <li onClick={this.toggleCheck}>
               <input type="checkbox"  />
                 <span>Tabourets</span>
-              </li>
-              <li onClick={this.toggleCheck}>
+                </li> 
+           <li onClick={this.toggleCheck}>
               <input type="checkbox"  />
-                <span>Tables</span>
-              </li>
-              <li onClick={this.toggleCheck}>
+                <span className="checkbox-text">Tables</span>
+                </li>
+           <li onClick={this.toggleCheck}>
               <input type="checkbox"  />
                 <span>Autres</span>
-              </li>
-            </ul>
+                </li>
+                </ul>
           </div>
           <div className="row-3">
             <Card
