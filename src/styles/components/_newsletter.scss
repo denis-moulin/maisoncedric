@@ -75,17 +75,17 @@
 
 .newsletter-pic1{
     position: absolute;
-    right: -222px;
+    right: -175px;
     bottom: -217px;
 }
 
 .newsletter-pic2 {
     position: absolute;
     top: -207px;
-    left: 34px;
+    left: 83px;
 }
 
-@media (max-width: $MobilePortrait) {
+@media (max-width: $TabletPortrait) {
     .newsletter-ad {
     display: none;
     }

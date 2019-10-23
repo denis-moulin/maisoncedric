@@ -2,21 +2,17 @@ import React from "react";
 import { Link } from 'gatsby';
 
 //import placeholder imagery
-import Pic1 from '../../src/images/pic1.svg'
-import Pic2 from '../../src/images/pic2.svg'
+import Insta from '../../static/jpgs/img--ad--instagram.png'
+import Mail from '../../static/jpgs/img--ad--mail.png'
 
 class NewsletterAd extends React.Component{
-    constructor(props){
-        super(props);
-    }
-
     render (){
         return(
             <React.Fragment>
                 <div className="newsletter-ad">
                     <section className="newsletter-imgs">
-                        < Pic2 className="newsletter-pic1"/>
-                        < Pic1 className="newsletter-pic2"/>
+                    <img src={Mail} alt="mail" className="newsletter-pic1" />
+                    <img src={Insta} alt="insta" className="newsletter-pic2" />
                     </section>
                     <div className="newsletter-text-all">
                         <h1 className="newsletter-title">Be the first to know our new...</h1>
