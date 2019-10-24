@@ -36,7 +36,7 @@ class Navbar extends React.Component{
                 <nav id="desktop-navbar">
                     <div id="dk-navbar-left">
                         <ul>
-                            <li><Link to="" activeStyle={activeStyle} >Nouveautés</Link></li>
+                            <li><Link to="#" activeStyle={activeStyle} >Nouveautés</Link></li>
                             <li><Link to="/assises" activeStyle={activeStyle} >Assises</Link></li>
                             <li><Link to="/mobilier" activeStyle={activeStyle}>Mobilier</Link></li>
                             <li><Link to="/luminaires" activeStyle={activeStyle} >Luminaires</Link></li>
@@ -73,9 +73,9 @@ class Navbar extends React.Component{
                         onSetOpen={this.onSetSidebarOpen}
                         sidebarClassName = "mobile-sidebar"
                     >
-                        <Link onClick={() => this.onSetSidebarOpen(true)} className="mb-navbar-btn-categories" >
+                        <div onClick={() => this.onSetSidebarOpen(true)} className="mb-navbar-btn-categories" >
                             Categories
-                        </Link>
+                        </div>
                     </Sidebar>
                     <div className="mb-navbar-filtres">
                         <Link to="/a-propos" activeStyle={activeStyle} >À propos</Link>
