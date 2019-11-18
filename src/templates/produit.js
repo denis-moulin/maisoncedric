@@ -14,7 +14,7 @@ import Footer from '../components/footer.js';
 import NewsletterAd from '../components/newsletterAd.js';
 import Carousel from '../components/carousel.js';
 import MobileLinks from '../components/mobile-links.js';
-import MobileNavbar from '../components/mobile-navbar.js';
+import MobileNavbarProduit from '../components/mobile-navbar-produit.js';
 
 // import imagery
 import Env from '../../static/images/ic-mail.svg';
@@ -78,7 +78,7 @@ class Produit extends React.Component {
       <React.Fragment>
         <Header />
         <MediaQuery maxDeviceWidth={1199}>
-          <MobileNavbar />
+          <MobileNavbarProduit/>
         </MediaQuery>
         <MediaQuery minDeviceWidth={1199}>
           <Navbar />
@@ -93,6 +93,7 @@ class Produit extends React.Component {
               <h1>
                 {getLocalizedProductTitle(path, data)}
               </h1>
+              <hr></hr>
               <MediaQuery maxDeviceWidth={1199}>
               <div className="fixed-mobile-links">
                 <MobileLinks />

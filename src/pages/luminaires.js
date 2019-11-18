@@ -123,7 +123,7 @@ class Luminaires extends React.Component {
         </MediaQuery>
         <div className="container category">
           <div className="sidebar">
-            <h1><FormattedMessage id="luminaires.titre" /></h1>
+            <h2><FormattedMessage id="luminaires.titre" /></h2>
             <hr/>
             <ul>
               {this.state.subCategories.map((subCategory) =>

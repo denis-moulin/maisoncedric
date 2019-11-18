@@ -43,7 +43,7 @@ class Index extends React.Component {
         </MediaQuery>
         <div className="container">
 
-          <h1><FormattedMessage id="index.titre" /></h1>
+          <h2><FormattedMessage id="index.titre" /></h2>
 
           <div className="row-3">
             <Card
