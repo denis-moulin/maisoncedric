@@ -15,7 +15,7 @@ export const getLocalizedFlag = (locale) => {
   }
 }
 
-const NavbarContent = (props) => {
+const Navbar = (props) => {
   // active style for the current tab
   const activeStyle = {
     color: '#17181A',
@@ -30,7 +30,7 @@ const NavbarContent = (props) => {
       <div id="dk-navbar-left">
         <ul>
           <li>
-            <Link to={`/${locale}/nouveautes/`} activeStyle={activeStyle}>
+            <Link to={`/${locale}/nouveautes`} activeStyle={activeStyle}>
               <FormattedMessage id="navbar.tab1"/>
             </Link>
           </li>
@@ -58,7 +58,7 @@ const NavbarContent = (props) => {
       </div>
       <div id="dk-navbar-right">
         <ul>
-          <li><Link to={ `/${locale}/a-propos` } activeStyle={activeStyle}><FormattedMessage id="navbar.tab6"/></Link></li>
+          <li><Link to={ `/${locale}/a-propos/` } activeStyle={activeStyle}><FormattedMessage id="navbar.tab6"/></Link></li>
           <li>{getLocalizedFlag(locale)}</li>
         </ul>
       </div>
@@ -66,4 +66,4 @@ const NavbarContent = (props) => {
   )
 }
 
-export default injectIntl(NavbarContent)
+export default injectIntl(Navbar)
