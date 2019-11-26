@@ -27,7 +27,8 @@
     "react-responsive": "^8.0.1",
     "react-responsive-modal": "^4.0.1",
     "react-router-dom": "^5.1.2",
-    "react-sidebar": "^3.0.2"
+    "react-sidebar": "^3.0.2",
+    "typescript": "^3.7.2"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
